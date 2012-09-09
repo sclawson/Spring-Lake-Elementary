@@ -56,6 +56,14 @@ body
 	
 	}
 
+/* ------------------------------- Form --------------------------*/
+
+
+
+
+
+
+
 
 
 /* --------------------Background------------------------------------------------ */
@@ -119,6 +127,47 @@ a:hover,a:active
 	background-color:#7A991A;
 	}
 	
+	/* Featured *****************/ 
+	
+#featured { 
+			background: #fff; 
+			margin-bottom: 2em; 
+			overflow: hidden; 
+			padding: 20px; 
+			width: 100%;  
+			border-radius: 10px; 
+			-moz-border-radius: 10px; 
+			-webkit-border-radius: 10px; }  
+			
+/* #featured figure { 
+			border: 2px solid #eee; 
+			float: right; 
+			margin: 0.786em 2em 0 5em; 
+			width: 248px; 
+			} */
+			
+#featured figure img {
+			display: block; 
+			float: right;
+			}  
+#featured h2 {
+			color: #C74451; 
+			font-size: 1.714em; 
+			margin-bottom: 0.333em;
+			} 
+#featured h3 {
+			font-size: 1.429em; 
+			margin-bottom: .5em;
+			}  
+#featured h3 a:link, 
+#featured h3 a:visited {
+			color: #000305; 
+			text-decoration: none;
+			} 
+#featured h3 a:hover, 
+#featured h3 a:active {
+			color: #fff;} 
+	
 /* ---------------------------------------------------------- */
 
 #subimg {
@@ -145,8 +194,8 @@ a:hover,a:active
 /* ------------ Images ------------ */
 
 #playground {
-			max-width: 100%;
-			height: auto;
+			width: 100%;
+			
 			}	
 /* #campus		 {
 			max-width: 33.2%;
@@ -182,6 +231,65 @@ a:hover,a:active
     		
 				}
 /* ---------------------- (Other Links) ------------ */
+
+
+/* ----------------------- Form -------------------*/
+
+form fieldset{
+	border-width:1px;
+	border-style:solid;
+	border-color:#333333;
+	background-color:#FFFFCC;
+	margin:20px 0px 20px 0px;
+	width:350px;
+	position:relative;
+	display:block;
+	padding: 0 10px 10px 10px;
+	
+}
+
+form fieldset legend{
+	font-weight:bold;		
+	background-color:#FFFFFF;
+	border-width:1px;
+	border-style:solid;
+	border-color:#333333;
+	padding:2px;
+	margin:0px 0px 10px 0px;
+	position:relative;
+	top: -12px;
+	
+}
+	 
+form fieldset legend img{
+	padding:0px 5px 0px 5px;	
+}
+
+label{
+	display:block;
+	float:left;
+	width:100px;
+	text-align:right;
+	margin:0px 5px 0px 0px;
+}
+#submit 	{
+			float:right;
+			}
+			
+
+#main_content {
+				font-weight:regular;		
+				background-color:#FFFFFF;
+				border-width:1px;
+				border-style:solid;
+				border-color:#333333;
+				padding:2px;
+				margin:0px 0px 10px 0px;
+				position:relative;
+				top: -12px;
+				}
+
+/*-----------------------------------------*/
 
 #links {
 		float:left;
