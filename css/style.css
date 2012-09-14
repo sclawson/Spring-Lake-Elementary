@@ -94,6 +94,7 @@ body {background-image:url('../images/162.gif');}
 nav {
 	border-style:solid;
 	border-width:0px;
+	
 	}
 
  a {
@@ -126,6 +127,8 @@ a:hover,a:active
 	{
 	background-color:#7A991A;
 	}
+ 
+
 	
 	/* Featured *****************/ 
 	
@@ -197,19 +200,7 @@ a:hover,a:active
 			width: 100%;
 			
 			}	
-/* #campus		 {
-			max-width: 33.2%;
-			height: auto;
-			}			
-#news		{
-			max-width: 33.2%;
-			height: auto;
-			}
-#volunteer	{
-			max-width: 33.2%;
-			height: auto;
-			}	
-			*/
+
 			
 .image 		{
     		position:relative;
@@ -230,7 +221,9 @@ a:hover,a:active
     		font-family: "Helvetica Neue";
     		
 				}
-/* ---------------------- (Other Links) ------------ */
+				
+				
+
 
 
 /* ----------------------- Form -------------------*/
@@ -289,13 +282,8 @@ label{
 				top: -12px;
 				}
 
-/*-----------------------------------------*/
 
-#links {
-		float:left;
-		max-width: 100%;
-		background-color: #fff;
-		}
+
 				
 /* ---------------------- Footer ------------------------- */
 
@@ -304,3 +292,55 @@ footer {
 		position:relative;
 		float: left;
 		}
+		
+		
+	table 
+{
+width:100%;
+}
+th
+{
+height:50px;
+}	
+		
+/* ------------------------- Media Queries -----------------------------*/
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 43.75em) and (max-width:62.250em) {
+		#wrapper {background-color: #ff7743; 
+				}
+		#main{
+			width: auto;
+				}
+		}
+		
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 35.10em) and (max-width: 43.74em) {
+		
+		#classroom {
+				display: none;
+					}		
+		#featured {
+				font-size: .85em;
+					}
+				
+		}
+		
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 35.099em) {
+		
+		#featured {
+					font-size: .546em;
+					display: none;
+					}
+		.image {
+					display: none;
+			td {
+					padding-right:2em;
+					float: left;	
+				}
+		#classroom {
+						display: none;
+					}
+			}
